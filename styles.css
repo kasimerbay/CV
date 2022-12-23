@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+.divider {
+    width: 90%;
+    border-bottom: 2px solid #888989;
+    margin: 2px auto;
+    clear: right;
+}
+
+.container{
+    width: 90%;
+    margin: 20px auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ------ 1. Bölüm */
+
+.header{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 15px;
+    /* border: 1px solid red; */
+    margin-left: 17%;
+}
+
+.mail-github{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0 20%;
+    padding: 5%;
+    /* border: 1px solid red; */
+}
+
+
+#image{
+    /* clip-path: circle(); */
+    border-radius: 50%;
+    width: 20%;
+    opacity: 0.9;
+}
+
+/* ------ 2.Bölüm */
+
+.work-experience{
+    display: flex;
+    flex-flow: row nowrap;
+    border: 5px solid orange;
+    justify-content: center;
+    align-items: center;
+}
+
+.secname{
+    width: 40%;
+    border: 3px solid red;
+    text-align: center;
+    font-size: x-large;
+}
+
+.experience{
+    width: 70%;
+    border: 3px solid red;
+}
+
+.bas-tarih{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid red;
+}
+
+.bas{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 60%;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    /* border: 1px solid red; */
+}
+
+.bas-title, .tel{
+    font-weight: bold;
+}
+
+.list{
+    line-height: 1.6;
+}
